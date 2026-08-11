@@ -1,0 +1,450 @@
+{
+  "packages": [
+    {
+      "id": "1",
+      "title": "Classic Royal Wedding",
+      "tag": "Most booked",
+      "tagColor": "pink",
+      "description": "Our signature grand wedding setup with multi-cuisine catering and mandap decor.",
+      "features": [
+        "Banquet venue hall",
+        "Themed mandap & entry floral arch",
+        "Multi-cuisine 40-item buffet",
+        "Candid photography & 4K stream",
+        "Live DJ & sound system"
+      ],
+      "price": "₹8.50 Lakh",
+      "priceValue": 850000,
+      "priceInfo": "estimated for 200 guests",
+      "icon": "Wedding",
+      "occasions": [
+        "Wedding",
+        "Reception"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Themed Birthday Celebration",
+      "tag": "Trending",
+      "tagColor": "purple",
+      "description": "Pick a theme (Superhero, Princess, Minimalist Pastel), we handle decor, cake and games.",
+      "features": [
+        "Balloon arch & customized backdrop",
+        "2 kg designer cake + dessert station",
+        "Anchor / Kids entertainer + DJ",
+        "Return gift hampers package",
+        "Photo booth with instant prints"
+      ],
+      "price": "₹1.50 Lakh",
+      "priceValue": 150000,
+      "priceInfo": "estimated for 80 guests",
+      "icon": "Birthday",
+      "occasions": [
+        "Birthday"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Starlit Engagement Gala",
+      "tag": "Popular",
+      "tagColor": "blue",
+      "description": "Intimate luxury setup with floral ring backdrop and live acoustic ambient music.",
+      "features": [
+        "Boutique garden venue",
+        "Fresh flower ring backdrop & seating",
+        "Live counters & mocktails",
+        "4-course plated dinner menu",
+        "Live acoustic music duo"
+      ],
+      "price": "₹3.80 Lakh",
+      "priceValue": 380000,
+      "priceInfo": "estimated for 120 guests",
+      "icon": "Engagement",
+      "occasions": [
+        "Engagement"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Corporate Annual Day Gala",
+      "tag": "Corporate",
+      "tagColor": "teal",
+      "description": "High-end corporate summit & awards dinner with full stage AV, branding and entertainment.",
+      "features": [
+        "Convention center banquet",
+        "LED wall, AV & branding backdrops",
+        "Trophy & award presentation setup",
+        "Gourmet international dinner buffet",
+        "Celebrity emcee & dance troupe"
+      ],
+      "price": "₹6.20 Lakh",
+      "priceValue": 620000,
+      "priceInfo": "estimated for 300 guests",
+      "icon": "Corporate",
+      "occasions": [
+        "Corporate"
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "id": "v1",
+      "name": "The Royal Pavilion",
+      "city": "Mumbai",
+      "capacity": 500,
+      "price_per_day": 250000,
+      "rating": 4.9,
+      "description": "A majestic palace-style banquet hall in South Mumbai featuring grand crystal chandeliers, high ceilings, and landscaped garden space.",
+      "amenities": [
+        "Air Conditioned",
+        "Valet Parking",
+        "In-house Catering",
+        "Bridal Dressing Suite",
+        "Power Backup"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544077960-604201fe74bc?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    {
+      "id": "v2",
+      "name": "Grand Horizon Banquet",
+      "city": "Delhi",
+      "capacity": 400,
+      "price_per_day": 180000,
+      "rating": 4.8,
+      "description": "Contemporary luxury banquet with state-of-the-art intelligent lighting and pillarless hall design in South Delhi.",
+      "amenities": [
+        "Pillarless Hall",
+        "Modern Lighting",
+        "Green Rooms",
+        "DJ Setup",
+        "Spacious Kitchen"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    {
+      "id": "v3",
+      "name": "Emerald Gardens Resort",
+      "city": "Bangalore",
+      "capacity": 600,
+      "price_per_day": 300000,
+      "rating": 4.9,
+      "description": "Sprawling lush green lawn and glasshouse pavilion ideal for outdoor weddings and evening reception parties.",
+      "amenities": [
+        "Outdoor Lawn",
+        "Glasshouse Pavilion",
+        "Cottage Rooms",
+        "Swimming Pool Side",
+        "Ample Parking"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544077960-604201fe74bc?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    {
+      "id": "v4",
+      "name": "Sunset Bay Ocean Resort",
+      "city": "Goa",
+      "capacity": 250,
+      "price_per_day": 350000,
+      "rating": 5,
+      "description": "Exclusive beachfront lawn offering panoramic sea sunset views for dream destination weddings.",
+      "amenities": [
+        "Private Beach",
+        "Ocean View Lawn",
+        "Luxury Suites",
+        "Beachside Bar",
+        "Fireplace Setup"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544077960-604201fe74bc?auto=format&fit=crop&w=1200&q=80"
+      ]
+    },
+    {
+      "id": "v5",
+      "name": "Heritage Manor & Courtyard",
+      "city": "Jaipur",
+      "capacity": 450,
+      "price_per_day": 280000,
+      "rating": 4.9,
+      "description": "Royal Rajasthani heritage palace with Jharokha archways, courtyard fountain, and night torchlit banquet seating.",
+      "amenities": [
+        "Heritage Architecture",
+        "Courtyard Fountain",
+        "Night Torch Setup",
+        "Folk Dance Stage",
+        "Royal Suites"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1200&q=80"
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "id": "vd1",
+      "name": "Aura Floral & Decor",
+      "category": "Decorator",
+      "rating": 4.9,
+      "city": "Mumbai",
+      "profilePhoto": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      "portfolioImages": [
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1544077960-604201fe74bc?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "id": "vd2",
+      "name": "Flavors Gourmet Catering",
+      "category": "Catering",
+      "rating": 4.8,
+      "city": "Mumbai",
+      "profilePhoto": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "portfolioImages": [
+        "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "id": "vd3",
+      "name": "Starlight Sound & Visuals",
+      "category": "Entertainment",
+      "rating": 4.9,
+      "city": "Delhi",
+      "profilePhoto": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      "portfolioImages": [
+        "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "id": "vd4",
+      "name": "Pixel Perfection Studios",
+      "category": "Photography",
+      "rating": 5,
+      "city": "Bangalore",
+      "profilePhoto": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "portfolioImages": [
+        "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80"
+      ]
+    },
+    {
+      "id": "vd5",
+      "name": "Royal Shehnai & Troupe",
+      "category": "Musicians",
+      "rating": 4.7,
+      "city": "Jaipur",
+      "profilePhoto": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=400&q=80",
+      "portfolioImages": []
+    }
+  ],
+  "quotations": [
+    {
+      "id": "q-101",
+      "bookingId": "bk-101",
+      "title": "Grand Wedding Proposal - Rohan & Priya",
+      "status": "Approved",
+      "eventDate": "2026-11-20",
+      "venueName": "The Royal Pavilion, Mumbai",
+      "guestCount": 350,
+      "items": [
+        {
+          "category": "Venue Rental",
+          "description": "The Royal Pavilion Hall + Lawn (Full Day Access)",
+          "amount": 250000
+        },
+        {
+          "category": "Catering",
+          "description": "Gourmet Multi-cuisine Buffet (₹1,800 x 350 plates)",
+          "amount": 630000
+        },
+        {
+          "category": "Decor & Floral",
+          "description": "Mandap floral arch, stage backdrop & aisle entry decor",
+          "amount": 220000
+        },
+        {
+          "category": "Photography",
+          "description": "Candid 4K videography, drone shots & pre-wedding shoot",
+          "amount": 120000
+        },
+        {
+          "category": "Entertainment",
+          "description": "Live DJ setup, moving head lights & sparkler entry effect",
+          "amount": 80000
+        },
+        {
+          "category": "GST & Service Fee",
+          "description": "18% GST and event management coordination fee",
+          "amount": 150000
+        }
+      ],
+      "totalAmount": 1450000,
+      "validUntil": "2026-08-30",
+      "notes": "Approved by client on 2026-08-05."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk-101",
+      "clientName": "bitsmasai",
+      "clientEmail": "bitsmasai@gmail.com",
+      "eventType": "Wedding",
+      "eventDate": "2026-11-20",
+      "city": "Mumbai",
+      "guestCount": 350,
+      "status": "Confirmed",
+      "stageIndex": 3,
+      "venueId": "v1",
+      "venueName": "The Royal Pavilion",
+      "valueInr": 1450000,
+      "eventManager": "Ananya Roy",
+      "managerPhone": "+91 98201 44552",
+      "moodBoard": "Royal Festive",
+      "notes": "Requires Shehnai group at entrance and pure veg catering options."
+    },
+    {
+      "id": "NNC5Qa3vH-8",
+      "clientName": "bitsmasai",
+      "clientEmail": "bitsmasai@gmail.com",
+      "eventType": "Wedding",
+      "eventDate": "2026-11-20",
+      "city": "Mumbai",
+      "guestCount": 250,
+      "status": "Enquiry",
+      "stageIndex": 0,
+      "valueInr": 650000,
+      "eventManager": "Ananya Roy",
+      "managerPhone": "+91 98201 44552",
+      "moodBoard": "Rustic Chic",
+      "notes": ""
+    },
+    {
+      "id": "kcoUihT4-Pc",
+      "clientName": "bitsmasai",
+      "clientEmail": "bitsmasai@gmail.com",
+      "eventType": "Engagement",
+      "eventDate": "61215-02-20",
+      "city": "Mumbai",
+      "guestCount": 250,
+      "status": "Enquiry",
+      "stageIndex": 0,
+      "valueInr": 650000,
+      "eventManager": "Ananya Roy",
+      "managerPhone": "+91 98201 44552",
+      "moodBoard": "Modern Glam",
+      "notes": "Need modern neon signs and cocktail bar."
+    },
+    {
+      "id": "JP9sP28yoIw",
+      "clientName": "bitsmasai",
+      "clientEmail": "bitsmasai@gmail.com",
+      "eventType": "Engagement",
+      "eventDate": "61215-02-20",
+      "city": "Delhi",
+      "guestCount": 250,
+      "status": "Enquiry",
+      "stageIndex": 0,
+      "valueInr": 650000,
+      "eventManager": "Ananya Roy",
+      "managerPhone": "+91 98201 44552",
+      "moodBoard": "Elegant Minimalist",
+      "notes": "Need Jain food options and elegant floral entry."
+    },
+    {
+      "id": "gvYVzr_Zn0I",
+      "clientName": "bitsmasai",
+      "clientEmail": "bitsmasai@gmail.com",
+      "eventType": "Wedding",
+      "eventDate": "2026-11-28",
+      "city": "Mumbai",
+      "guestCount": 110,
+      "status": "Enquiry",
+      "stageIndex": 0,
+      "valueInr": 100000,
+      "eventManager": "Ananya Roy",
+      "managerPhone": "+91 98201 44552",
+      "moodBoard": "Modern Glam",
+      "notes": ""
+    }
+  ],
+  "communicationLogs": [
+    {
+      "id": "c1",
+      "bookingId": "bk-101",
+      "sender": "manager",
+      "senderName": "Ananya Roy (Event Manager)",
+      "message": "Namaste Priya & Rohan! I have updated the floral Mandap setup to include pink orchids and marigolds as requested. Please check your quotation details.",
+      "timestamp": "10:30 AM"
+    },
+    {
+      "id": "c2",
+      "bookingId": "bk-101",
+      "sender": "client",
+      "senderName": "bitsmasai",
+      "message": "Thank you Ananya! The proposal looks fantastic. We have approved the quotation.",
+      "timestamp": "11:15 AM"
+    },
+    {
+      "id": "SfKN3MBEtGU",
+      "bookingId": "JP9sP28yoIw",
+      "sender": "client",
+      "senderName": "bitsmasai",
+      "message": "Hello Ananya, can we add more lilies to the entry decoration?",
+      "timestamp": "04:43 AM"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "fb-1",
+      "bookingId": "bk-101",
+      "rating": 5,
+      "recommendationScore": 10,
+      "feedbackTags": [
+        "Punctual",
+        "Beautiful Decor",
+        "Great Food",
+        "Seamless Management"
+      ],
+      "comments": "EventsVedika made our dream wedding stress-free! Ananya and her team handled everything flawlessly.",
+      "createdAt": "2026-08-01T12:00:00.000Z"
+    },
+    {
+      "bookingId": "bk-101",
+      "rating": 5,
+      "recommendationScore": 10,
+      "feedbackTags": [
+        "Punctual Execution",
+        "Beautiful Floral Decor"
+      ],
+      "comments": "We had a wonderful experience! The floral arrangements were gorgeous and the manager Ananya was extremely supportive throughout the coordination.",
+      "id": "n-5WCfzhC_U",
+      "createdAt": "2026-08-06T23:15:07.005Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

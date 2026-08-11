@@ -1,0 +1,146 @@
+.updates-page {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.countdown-banner {
+  background: linear-gradient(135deg, rgba(144, 65, 255, 0.2), rgba(188, 54, 204, 0.15));
+  border: 1px solid rgba(144, 65, 255, 0.3);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  box-shadow: 0 0 30px rgba(144, 65, 255, 0.2);
+}
+
+.countdown-info h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.countdown-info p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.countdown-timer-boxes {
+  display: flex;
+  gap: 12px;
+}
+
+.timer-unit {
+  background: rgba(15, 12, 32, 0.8);
+  border: 1px solid var(--surface-glass-border);
+  border-radius: var(--radius-md);
+  padding: 12px 18px;
+  text-align: center;
+  min-width: 72px;
+}
+
+.timer-unit .number {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #c084fc;
+  line-height: 1;
+}
+
+.timer-unit .label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.reminders-section {
+  background: var(--surface-glass);
+  border: 1px solid var(--surface-glass-border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+}
+
+.reminders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.reminders-header h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.reminders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reminder-item {
+  background: rgba(15, 12, 32, 0.6);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all var(--transition-fast);
+}
+
+.reminder-item:hover {
+  border-color: rgba(144, 65, 255, 0.3);
+}
+
+.reminder-item.done {
+  opacity: 0.6;
+}
+
+.reminder-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.checkbox-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: 2px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  transition: all var(--transition-fast);
+}
+
+.reminder-item.done .checkbox-btn {
+  background: var(--secondary);
+  border-color: var(--secondary);
+  color: white;
+}
+
+.reminder-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.reminder-item.done .reminder-title {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.reminder-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2px;
+}

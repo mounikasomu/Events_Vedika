@@ -1,0 +1,90 @@
+.plan-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.plan-card {
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  box-shadow: var(--shadow-md);
+}
+
+.mood-board-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.mood-card {
+  background: var(--surface-alt);
+  border: 2px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.mood-card:hover, .mood-card.selected {
+  border-color: var(--primary-pink);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.mood-card.selected {
+  background: rgba(219, 39, 119, 0.05);
+  border-color: var(--primary-pink);
+}
+
+.mood-icon {
+  font-size: 2rem;
+  margin-bottom: 6px;
+}
+
+.mood-name {
+  font-weight: 800;
+  font-size: 0.95rem;
+}
+
+.ai-nudge-box {
+  background: linear-gradient(135deg, rgba(251, 207, 232, 0.4) 0%, rgba(254, 249, 195, 0.4) 100%);
+  border: 1px solid rgba(219, 39, 119, 0.25);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  margin: 24px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.ai-nudge-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--primary-cta);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.value-display {
+  font-weight: 800;
+  color: var(--primary-pink);
+  font-size: 1.1rem;
+}

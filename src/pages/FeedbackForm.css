@@ -1,0 +1,55 @@
+.feedback-page {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.feedback-card {
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  box-shadow: var(--shadow-md);
+}
+
+.star-rating-row {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0 24px;
+}
+
+.star-btn {
+  font-size: 2.2rem;
+  color: #cbd5e1;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.star-btn.selected, .star-btn:hover {
+  color: #f59e0b;
+  transform: scale(1.1);
+}
+
+.feedback-tags-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 12px 0 24px;
+}
+
+.feedback-tag-chip {
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  background: #f8fafc;
+  border: 1.5px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.feedback-tag-chip.selected {
+  background: var(--primary-cta);
+  color: white;
+  border-color: transparent;
+}
