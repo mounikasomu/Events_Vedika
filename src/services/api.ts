@@ -165,8 +165,8 @@ const memoryStore = {
   bookings: [
     {
       id: "bk-101",
-      clientName: "bitsmasai",
-      clientEmail: "bitsmasai@gmail.com",
+      clientName: "mounikasomu",
+      clientEmail: "mounikasomu@gmail.com",
       eventType: "Wedding",
       eventDate: "2026-11-20",
       city: "Mumbai",
@@ -351,8 +351,8 @@ export function emitWebhookEvent(eventType: 'lead.created' | 'quotation.approved
 export async function createLeadEnquiry(data: Partial<ClientBooking>): Promise<ClientBooking> {
   const newBooking: ClientBooking = {
     id: `bk-${Date.now()}`,
-    clientName: "bitsmasai",
-    clientEmail: "bitsmasai@gmail.com",
+    clientName: "mounikasomu",
+    clientEmail: "mounikasomu@gmail.com",
     eventType: data.eventType || 'Wedding',
     eventDate: data.eventDate || '2026-11-20',
     city: data.city || 'Mumbai',
@@ -460,7 +460,7 @@ export async function sendMessage(bookingId: string, messageText: string): Promi
     id: `c-${Date.now()}`,
     bookingId,
     sender: 'client',
-    senderName: 'bitsmasai',
+    senderName: 'mounikasomu',
     message: messageText,
     timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
   };
