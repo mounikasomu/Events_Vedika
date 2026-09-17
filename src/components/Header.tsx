@@ -36,7 +36,7 @@ const Header = () => {
             B
           </div>
           <div className="user-info">
-            <div style={{ fontWeight: 800, fontSize: '0.85rem' }}>bitsmasai</div>
+            <div style={{ fontWeight: 800, fontSize: '0.85rem' }}>mounikasomu</div>
             <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)' }}>Client Portal</div>
           </div>
         </div>
